@@ -1,15 +1,23 @@
 <div id="title">
+  <h1>		
+    <a id="sitename" href="{{site.baseurl}}">LernMoment.de</a>
+</h1>
+
+  <!-- Add something about you in p tag-->
+  <p>Verbessere deine Softwareentwicklung. Täglich!</p>
+  <hr/>
+  
+  {% include nav-links.html %} 
+
   <h1>
     {% unless site.git == "" %}
-		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
     {% endunless %}
 
     {% unless site.stackoverflow == "" %}
       <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
     {% endunless %}
 		
-    <a id="sitename" href="{{site.baseurl}}">LernMoment.de</a>
-
     {% unless site.twitter == "" %}
       <a id="so-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
     {% endunless %}
@@ -19,12 +27,6 @@
     {% endunless %}
 </h1>
 
-  <!-- Add something about you in p tag-->
-  <p>Verbessere deine Softwareentwicklung. Täglich!</p>
-  <hr/>
-  
-  {% include nav-links.html %} 
-	 
 </div>
 
 
