@@ -11,34 +11,34 @@
 
   <h1>
     {% unless site.homepage == "" %}
-      <a id="so-ic" href="{{site.homepage}}"><i class="fa fa-home"></i></a>
+      <a id="so-ic" href="{{site.homepage}}" title="{{site.title}} der Blog"><i class="fa fa-home"></i></a>
     {% endunless %}
 	  
     {% unless site.youtube == "" %}
-      <a id="so-ic" href="{{site.youtube}}"><i class="fa fa-youtube"></i></a>
+      <a id="so-ic" href="{{site.youtube}}" title="{{site.title}} auf YouTube"><i class="fa fa-youtube"></i></a>
     {% endunless %}
 	  
     {% unless site.twitter == "" %}
-      <a id="so-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+      <a id="so-ic" href="{{site.twitter}}" title="{{site.title}} auf Twitter"><i class="fa fa-twitter"></i></a>
     {% endunless %}
 	  
     {% unless site.facebook == "" %}
-      <a id="so-ic" href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+      <a id="so-ic" href="{{site.facebook}}" title="{{site.title}} auf Facebook"><i class="fa fa-facebook"></i></a>
     {% endunless %}
 
     {% unless site.git == "" %}
-      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+      <a id="git-ic" href="{{site.git}}" title="{{site.title}} auf GitHub"><i class="fa fa-github"></i></a>	
     {% endunless %}
 
     {% unless site.stackoverflow == "" %}
-      <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+      <a id="so-ic" href="{{site.stackoverflow}}" title="Jan auf Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
     {% endunless %}
 		
     {% unless site.email == "" %}
-      <a id="so-ic" href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a>
+      <a id="so-ic" href="mailto:{{site.email}}" title="Schreib mit eine Mail"><i class="fa fa-envelope"></i></a>
     {% endunless %}
     
-    <a id="so-ic" href="{{ "/about" | prepend:site.baseurl }}"><i class="fa fa-question-circle"></i></a>
+    <a id="so-ic" href="{{ "/about" | prepend:site.baseurl }}" title="Über {{site.title}}"><i class="fa fa-question-circle"></i></a>
   </h1>
 
 </div>
