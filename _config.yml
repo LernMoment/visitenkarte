@@ -9,6 +9,8 @@ paginate_path: /blog/page:num #makes pagination working
 git: "https://github.com/LernMoment"  #your github url here.
 stackoverflow: "http://stackoverflow.com/users/5258906/jan-suchotzki" #Add your stackoverflow url here.
 twitter: "https://twitter.com/LernMoment"  #Add your twitter url here.
+facebook: "https://facebook.com/LernMoment"
+email: "jan@lernmoment.de"
 
 #disqus comment
 disqus:
