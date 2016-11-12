@@ -1,7 +1,7 @@
 <div id="title">
   <h1>		
     <a id="sitename" href="{{site.baseurl}}">LernMoment.de</a>
-</h1>
+  </h1>
 
   <!-- Add something about you in p tag-->
   <p>Verbessere deine Softwareentwicklung. Täglich!</p>
@@ -25,7 +25,11 @@
     {% unless site.facebook == "" %}
       <a id="so-ic" href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
     {% endunless %}
-</h1>
+
+    {% unless site.email == "" %}
+      <a id="so-ic" href="mailto:{{site.email}}"><i class="fa fa-envelop"></i></a>
+    {% endunless %}
+  </h1>
 
 </div>
 
