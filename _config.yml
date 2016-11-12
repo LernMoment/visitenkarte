@@ -1,14 +1,14 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "https://lernmoment.github.io/visitenkarte" # the base hostname & protocol for your site.
-title: "username-blog"
+title: "LernMoment.de"
 
 paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 #contacts
-git: "https://github.com/railsr"  #your github url here.
-stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
-twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
+git: "https://github.com/LernMoment"  #your github url here.
+stackoverflow: "http://stackoverflow.com/users/5258906/jan-suchotzki" #Add your stackoverflow url here.
+twitter: "https://twitter.com/LernMoment"  #Add your twitter url here.
 
 #disqus comment
 disqus:
