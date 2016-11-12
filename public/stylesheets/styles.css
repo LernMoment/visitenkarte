@@ -46,13 +46,13 @@ h3 {
 }
 
 a {
-  color: #49B1F7;
+  color: #00A8C6;
   font-weight: 400;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EC4E3B;
+  color: #FFCD00;
 }
 
 a:hover, a:active, a:focus, a:visited  {
@@ -69,12 +69,12 @@ a small {
 
 a#git-ic{
   font-size:37px;
-  color:#fff;
+  color:#F9F2E7;
 }
 
 a#so-ic{
   font-size:32px;
-  color:#fff;
+  color:#F9F2E7;
 }
 
 strong {
@@ -123,7 +123,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #49B1F7;
+  border-bottom: 1px dashed #00A8C6;
 }
 
 dt {
@@ -147,7 +147,7 @@ section #title {
 }
 
 section .p-title{
-  color: #49B1F7;
+  color: #00A8C6;
 }
 
 section #title h1 {
@@ -238,7 +238,7 @@ footer .right{
 #title #sitename,
 .resume span,
 .resume h2 {
-  color: #EC4E3B;
+  color: #FFCD00;
 }
 
 #sitename{
@@ -250,5 +250,5 @@ mark, .mark {
 }
 
 .orng{
-  color: #EC4E3B;
+  color: #FFCD00;
 }
