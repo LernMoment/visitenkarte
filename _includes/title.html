@@ -37,6 +37,8 @@
     {% unless site.email == "" %}
       <a id="so-ic" href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a>
     {% endunless %}
+    
+    <a id="so-ic" href="{{ "/about" | prepend:site.baseurl }}"><i class="fa fa-question-circle"></i></a>
   </h1>
 
 </div>
