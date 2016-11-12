@@ -8,11 +8,19 @@
       <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
     {% endunless %}
 		
-    <a id="sitename" href="{{site.baseurl}}">username.github.io</a>
-  </h1>
+    <a id="sitename" href="{{site.baseurl}}">LernMoment.de</a>
+
+    {% unless site.twitter == "" %}
+      <a id="so-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+    {% endunless %}
+	  
+    {% unless site.facebook == "" %}
+      <a id="so-ic" href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+    {% endunless %}
+</h1>
 
   <!-- Add something about you in p tag-->
-  <p>Write something about you here...</p>
+  <p>Verbessere deine Softwareentwicklung. Täglich!</p>
   <hr/>
   
   {% include nav-links.html %} 
