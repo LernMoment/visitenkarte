@@ -10,14 +10,14 @@
   {% include nav-links.html %} 
 
   <h1>
-    {% unless site.git == "" %}
-      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+    {% unless site.homepage == "" %}
+      <a id="so-ic" href="{{site.homepage}}"><i class="fa fa-home"></i></a>
     {% endunless %}
-
-    {% unless site.stackoverflow == "" %}
-      <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+	  
+    {% unless site.youtube == "" %}
+      <a id="so-ic" href="{{site.youtube}}"><i class="fa fa-youtube"></i></a>
     {% endunless %}
-		
+	  
     {% unless site.twitter == "" %}
       <a id="so-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
     {% endunless %}
@@ -26,6 +26,14 @@
       <a id="so-ic" href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
     {% endunless %}
 
+    {% unless site.git == "" %}
+      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+    {% endunless %}
+
+    {% unless site.stackoverflow == "" %}
+      <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+    {% endunless %}
+		
     {% unless site.email == "" %}
       <a id="so-ic" href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a>
     {% endunless %}
