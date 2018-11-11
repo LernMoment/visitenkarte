@@ -1,5 +1,5 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "https://lernmoment.github.io/visitenkarte-0" # the base hostname & protocol for your site.
+url: "https://bastibond.github.io/visitenkarte" # the base hostname & protocol for your site.
 title: ".de"
 
 paginate: 6 #articles per page
