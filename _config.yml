@@ -51,8 +51,4 @@ defaults:
     values:
       layout: "post"
 
-theme: jekyll-theme-cayman
 
-gems:
-    - jekyll-sitemap
-    - jekyll-paginate
