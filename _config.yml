@@ -52,3 +52,5 @@ defaults:
       layout: "post"
 
 
+
+theme: jekyll-theme-cayman
