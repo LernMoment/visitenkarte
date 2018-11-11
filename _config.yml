@@ -23,8 +23,8 @@ google:
     tracking-id: "" #your tracking id here
 
 gems:
-  - jekyll-sitemap
-  - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-paginate
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
@@ -52,3 +52,7 @@ defaults:
       layout: "post"
 
 theme: jekyll-theme-cayman
+
+gems:
+    - jekyll-sitemap
+    - jekyll-paginate
